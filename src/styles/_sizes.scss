@@ -1,0 +1,17 @@
+$m-size: 1.5rem;
+$l-size: 2.5rem;
+
+.container {
+  width: 88%;
+  max-width: 1100px;
+  padding: 0 1rem;
+  margin: 0 auto;
+
+  @media (max-width: 1199px) {
+    width: 80%;
+  }
+
+  @media (max-width: 767px) {
+    width: 98%;
+  }
+}

@@ -1,0 +1,16 @@
+.btn-outlined {
+  border: 1px solid $dark-accent;
+  color: $dark-accent;
+  transition: all 0.2s linear;
+  background: transparent;
+  &:hover {
+    background: rgba($dark-accent, 0.5);
+    color: #fff;
+  }
+}
+
+.btn {
+  padding: 1rem 3rem;
+  text-decoration: none;
+  display: inline-block;
+}

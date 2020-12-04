@@ -1,0 +1,74 @@
+.social-widget {
+  position: fixed;
+  left: 0;
+  top: 35%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.widget-line {
+  height: 100%;
+  width: 1px;
+  background: $dark-muted;
+  margin: 0 auto;
+  display: block;
+}
+
+.social-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-li {
+  margin: 30px;
+}
+
+.social-li a {
+  display: block;
+
+  svg {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    color: $dark-muted;
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: #ffffff;
+    }
+
+    path {
+      fill: currentColor;
+    }
+  }
+}
+
+.mail-widget {
+  position: fixed;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  right: 0;
+  top: 35%;
+  display: flex;
+  height: 100%;
+
+  a {
+    display: block;
+    margin: 30px;
+    color: $dark-muted;
+    text-decoration: none;
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .widget {
+    display: none;
+  }
+}

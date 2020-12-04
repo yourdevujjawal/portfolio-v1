@@ -1,0 +1,33 @@
+.portrait {
+  position: relative;
+  display: inline-block;
+}
+
+.portrait__frame {
+  position: absolute;
+  top: 6%;
+  left: 12%;
+  height: 100%;
+  width: 100%;
+  display: block;
+  border: 1px solid $dark-accent;
+  z-index: 0;
+}
+
+.hero-portrait {
+  .portrait__frame {
+    border-width: 15px;
+    top: 10%;
+    left: 15%;
+  }
+
+  .portrait__img {
+    max-width: 250px;
+  }
+}
+
+.portrait__img {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+}

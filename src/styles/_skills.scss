@@ -1,0 +1,27 @@
+.skills-list {
+  padding: 0;
+  list-style-type: none;
+  margin: 40px 0;
+  column-count: 3;
+
+  @media (max-width: 1199px) {
+    margin: 40px 0 0px 0;
+  }
+
+  @media (max-width: 767px) {
+    column-count: 2;
+  }
+}
+
+.skill-item {
+  margin: 0 0 25px 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.skill-arrow {
+  border: 6px solid transparent;
+  border-left-color: $dark-accent;
+  margin-right: 8px;
+}

@@ -1,0 +1,71 @@
+{
+  "experience": [
+    {
+      "name": "INNsight Interactive Pvt. Ltd.",
+      "designation": "UI Developer",
+      "period": "April 2019 - Present",
+      "works": [
+        "Developed and maintained code for in-house and client websites primarily utilizing HTML, CSS, Bootstrap, Sass, JavaScript, jQuery, Photoshop and more.",
+
+        "Converted PSD to HTML and implemented various 3rd party libraries in more than 25 websites.",
+
+        "Worked on optimizing websites for higher Google page speed scores for better Search engine ranking and faster loading.",
+
+        "Tested code in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.",
+
+        "Developed and maintained AMP websites for various websites developed."
+      ]
+    },
+    {
+      "name": "Freelance Web Developer",
+      "designation": "",
+      "period": "2018 - 2019",
+      "works": [
+        "Developed a news website for a client named <a target=\"_blank\" href=\"https://www.biharexpressnews.com\"> Bihar Express News </a> using WordPress.",
+        "Developed 'The 'AI Helps' a multipage website remotely for a client using HTML, CSS, JavaScript and also implemented PHP."
+      ]
+    }
+  ],
+  "projects": {
+    "featuredProjects": [
+      {
+        "name": "Job Listing & Filtering",
+        "description": "Fetching data from JSON file, this app lists down all of available jobs and you can filter the jobs based on various available tags.",
+        "thumbnail": "job-listing-and-filtering.png",
+        "links": {
+          "github": "https://github.com/yourdevujjawal/job-listing-and-filtering-react",
+          "live": "https://jobfilteringapp.yourdevujjawal.com/"
+        }
+      },
+      {
+        "name": "The Stevenson Hotel, CA",
+        "description": "I created this website at INNsight for The Stevenson Hotel, located in Monterey, California. Have a look at the website by clicking the link below.",
+        "thumbnail": "the-stevenson-hotel.png",
+        "links": {
+          "github": "",
+          "live": "https://www.thestevensonmonterey.com/"
+        }
+      }
+    ],
+    "otherProjects": [
+      {
+        "name": "Indecision App",
+        "description": "Indecision. Put your life in the hands of a computer. Please add an option to get started! Add Option.",
+        "thumbnail": "indecision-app.jpg",
+        "links": {
+          "github": "https://github.com/yourdevujjawal/job-listing-and-filtering-react",
+          "live": "https://yourdevujjawal-indecision-app.netlify.app/"
+        }
+      },
+      {
+        "name": "Buena Vista",
+        "description": "Buena Vista Inn, A charming and comfortable accommodation in San Fransisco, CA. I created this website for them while working at INNsight.",
+        "thumbnail": "buena-vista.jpg",
+        "links": {
+          "github": "",
+          "live": "https://www.buenavistainnsf.com/"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+
+  .portrait {
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+}
+
+.contact-detail {
+  margin-left: 7rem;
+  padding-right: 5rem;
+  width: 75%;
+
+  @media (max-width: 991px) {
+    margin-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+
+.contact__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.contact__desc {
+  line-height: 1.8;
+  margin: 2rem 0 2.5rem 0;
+}

@@ -1,0 +1,32 @@
+.accent-text {
+  color: $dark-accent;
+}
+
+.about__desc {
+  line-height: 2;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about__text {
+  flex: 1 1 60%;
+  max-width: 60%;
+
+  @media (max-width: 991px) {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+.about__portrait {
+  flex: 1 1 25%;
+  max-width: 25%;
+
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
