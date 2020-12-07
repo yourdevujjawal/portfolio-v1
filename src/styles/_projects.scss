@@ -47,9 +47,14 @@
   width: 100%;
   transition: background 0.3s linear;
 
-  @media (max-width: 991px) {
+}
+
+
+@media (max-width: 991px) {
+  .featuredProject__img::before,
+  .featuredProject:hover .featuredProject__img::before {
     background: rgba(10, 25, 47, 0.85);
-  }
+  } 
 }
 
 .featuredProject__detail {
