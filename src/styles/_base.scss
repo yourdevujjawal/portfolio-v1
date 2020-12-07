@@ -38,6 +38,10 @@ section {
   @media (max-width: 1199px) {
     font-size: 2rem;
   }
+
+  @media (max-width: 767px) {
+    font-size: 1.8rem;
+  }
   &::after {
     content: "";
     position: relative;
