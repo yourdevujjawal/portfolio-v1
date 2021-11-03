@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as FooterLogo } from "../images/logo.svg";
-import { ReactComponent as Heart } from "../images/heart.svg";
+// import { ReactComponent as Heart } from "../images/heart.svg";
 import { ReactComponent as GithubLogo } from "../images/github.svg";
 import { ReactComponent as InstagramLogo } from "../images/instagram.svg";
 import { ReactComponent as LinkedinLogo } from "../images/linkedin.svg";
@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container">
         <div className="logo-row">
           <FooterLogo title="Ujjawal Chatterjee" />
-          <Heart />
+          {/* <Heart /> */}
         </div>
         <div className="social-row">
           <ul className="social-ul">
@@ -62,7 +62,8 @@ const Footer = () => {
           yourdevujjawal@gmail.com
         </a>
         <div className="footer-copyright">
-          Built with Love and Hard-work by Ujjawal
+          Built with <span style={{ color: "#F44336" }}>&#10084;</span> by
+          Ujjawal
         </div>
       </div>
     </footer>

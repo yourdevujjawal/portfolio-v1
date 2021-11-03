@@ -1,7 +1,12 @@
 import React from "react";
-import {ReactComponent as HeroPortrait} from "../images/hero-portrait.svg";
+import { ReactComponent as HeroPortrait } from "../images/hero-portrait.svg";
 
-const Header = () => {
+const Header = ({ scrollToAbout }) => {
+  const onCtaClick = (e) => {
+    e.preventDefault();
+    scrollToAbout();
+  };
+
   return (
     <section id="home">
       <div className="hero">
@@ -10,11 +15,13 @@ const Header = () => {
           <h1 className="h1">Ujjawal Chatterjee</h1>
           <p className="subtitle">I build things for the web.</p>
           <a
-            href="mailto:yourdevujjawal@gmail.com"
+            id="headerCta"
+            href="#about"
             className="btn btn-outlined"
-            title="Get In Touch"
+            title="Know More About Me"
+            onClick={onCtaClick}
           >
-            Get In Touch
+            Know More
           </a>
         </div>
         <div className="hero__portrait">

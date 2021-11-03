@@ -1,28 +1,31 @@
 {
   "experience": [
     {
-      "name": "INNsight Interactive Pvt. Ltd.",
-      "designation": "UI Developer",
-      "period": "April 2019 - Present",
+      "name": "Publicis Sapient",
+      "designation": "Associate Technology L1",
+      "period": "June 2021–Oct 2021",
       "works": [
-        "Developed and maintained code for in-house and client websites primarily utilizing HTML, CSS, Bootstrap, Sass, JavaScript, jQuery, Photoshop and more.",
-
-        "Converted PSD to HTML and implemented various 3rd party libraries in more than 25 websites.",
-
-        "Worked on optimizing websites for higher Google page speed scores for better Search engine ranking and faster loading.",
-
-        "Tested code in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.",
-
-        "Developed and maintained AMP websites for various websites developed."
+        "Worked on Liquid templating language for re-development of myfonts.com with Shopify in the Backend"
       ]
     },
     {
-      "name": "Freelance Web Developer",
-      "designation": "",
-      "period": "2018 - 2019",
+      "name": "INNsight Interactive Pvt. Ltd.",
+      "designation": "UI Developer",
+      "period": "April 2019 - June 2021",
       "works": [
-        "Developed a news website for a client named <a target=\"_blank\" href=\"https://www.biharexpressnews.com\"> Bihar Express News </a> using WordPress.",
-        "Developed 'The 'AI Helps' a multipage website remotely for a client using HTML, CSS, JavaScript and also implemented PHP."
+        "Developed and maintained designs & code for web applicationsprimarily utilizing HTML, SCSS/CSS, JavaScript, jQuery, React.JS, Photoshop, Illustrator and more.",
+
+        "Worked on in-house Admin software based on React.js with REST API consumption using tools like Webpack, Axios, React Query etc.",
+
+        "Converted complex PSD/Figma designprototypesto W3C and WCAG 2.0 compliantcode.",
+
+        "Collaborated with Backend Developers & QATeam to deliverbug free, well performing applications.",
+
+        "Optimized websites for higher Google page speedscores for better Search engine ranking and faster loading.",
+
+        "Tested code in various browsers and devices to ensure cross-browser compatibility and responsive behaviour.",
+
+        "Developed Google AMP for all the websites created."
       ]
     }
   ],
