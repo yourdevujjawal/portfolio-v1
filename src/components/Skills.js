@@ -2,16 +2,17 @@ import React from "react";
 
 const Skills = () => {
   const skillset = [
+    "JavaScript",
+    "CSS, SCSS, Bootstrap",
     "React",
+    "Redux",
+    "Styled Components",
     "HTML",
-    "CSS, SASS",
-    "JavaScript (ES6)",
     "jQuery",
-    "Bootstrap",
+    "Google AMP",
     "Webpack",
-    "GIT, SVN, Github",
-    "Photoshop",
-    "Illustrator",
+    "GIT, SVN, Github, JIRA",
+    "Adobe Photoshop",
     "And More!",
   ];
 

@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import jobData from "./data.json";
 import Widgets from "./components/Widgets";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import "../node_modules/aos/dist/aos.css";
 import AOS from "../node_modules/aos/dist/aos.js";
@@ -21,6 +21,15 @@ function App() {
     AOS.init();
   }, []);
 
+  const aboutRef = useRef();
+  const scrollToRef = (ref) => {
+    window.scrollTo({
+      left: 0,
+      top: ref.current.offsetTop - 10,
+      behavior: "smooth",
+    });
+  };
+  const scrollToAbout = () => scrollToRef(aboutRef);
   return (
     <div className="App dark-mode">
       {menuState && (
@@ -29,8 +38,8 @@ function App() {
       <Navbar menuState={menuState} setMenuState={setMenuState} />
       <main>
         <div className="container">
-          <Header />
-          <About />
+          <Header scrollToAbout={scrollToAbout} />
+          <About innerRef={aboutRef} />
           <Experience portfolioData={portfolioData.experience} />
           <Projects projectsData={portfolioData.projects} />
           <Contact />

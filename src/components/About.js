@@ -1,29 +1,28 @@
 import React from "react";
 import Heading from "./Heading";
 import Portrait from "./Portrait";
-import AboutPortrait from "../images/myPotrait.jpg";
+import AboutPortrait from "../images/blurred.jpg";
 import Skills from "./Skills";
 
-const About = () => {
+const About = ({ innerRef }) => {
   return (
-    <section id="about">
+    <section id="about" ref={innerRef}>
       <Heading>About Me</Heading>
       <div className="about">
         <div className="about__text">
           <div className="about__desc">
+            <p>Hi, I am Ujjawal, a UI / Front End developer.</p>
             <p>
-              Hi, I am Ujjawal, a Front-end / UI developer.
+              I am responsible for building beautiful, elegant and functional
+              web applications. I did my bachelors in Computer Application in
+              2018. Being passionate about learning &amp; implementing new tools
+              and technologies keeps me motivated.
             </p>
+            <p>Interesting fact! I also sing &amp; play guitar &#128512;</p>
             <p>
-              Being a front-end developer, I take care of the responsibility to build beautiful, elegant and functional websites and web applications. I have done my Bachelors in Computer applications. 
-            </p>
-            <p>
-              My passion is to learn and implement new technologies in my work. Although, somewhere at the back of my heart, I am also a singer and musician. So, creativity has been there in me from the beginning.
-            </p>
-            <p>
-              Coming back to programming and web development, here are few
+              Coming back to web development, here are few
               <span className="accent-text"> technologies and tools </span>that
-              I am currently working with:
+              I am familar with:
             </p>
           </div>
           <Skills />
