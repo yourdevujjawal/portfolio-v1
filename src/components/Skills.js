@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   const skillset = [
-    "JavaScript",
+    "JavaScript, Typescript",
     "CSS, SCSS, Bootstrap",
     "React",
     "Redux",

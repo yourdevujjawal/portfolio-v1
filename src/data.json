@@ -1,6 +1,14 @@
 {
   "experience": [
     {
+      "name": "Accenture India",
+      "designation": "Software Development Analyst",
+      "period": "Oct 2021–Present",
+      "works": [
+        "Worked on slowly migrating a legacy JSP application to React in a microfrontend architecture where only part of the system is React with Typescript and the rest remains legacy JSP interface."
+      ]
+    },
+    {
       "name": "Publicis Sapient",
       "designation": "Associate Technology L1",
       "period": "June 2021–Oct 2021",

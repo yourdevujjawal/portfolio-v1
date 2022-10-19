@@ -1,6 +1,6 @@
 .contact-wrapper {
   display: flex;
-  align-items: center;
+  // align-items: center;
 
   @media (max-width: 991px) {
     flex-direction: column;
@@ -16,9 +16,26 @@
 }
 
 .contact-detail {
+  width: 40%;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+
+.email-logo {
+  width: 80px;
+  filter: invert(1);
+
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+
+.contact-form {
   margin-left: 7rem;
   padding-right: 5rem;
-  width: 75%;
+  width: 60%;
 
   @media (max-width: 991px) {
     margin-left: 0;

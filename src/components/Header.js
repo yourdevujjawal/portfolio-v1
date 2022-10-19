@@ -13,7 +13,7 @@ const Header = ({ scrollToAbout }) => {
         <div className="hero__text">
           <p className="small">Hi, my name is</p>
           <h1 className="h1">Ujjawal Chatterjee</h1>
-          <p className="subtitle">I build things for the web.</p>
+          <p className="subtitle">I build things for the web 🌐</p>
           <a
             id="headerCta"
             href="#about"

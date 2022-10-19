@@ -31,8 +31,31 @@
     <title>Ujjawal | Front End Developer</title>
   </head>
   <body>
+    <!-- A little help for the Netlify bots if you're not using a SSG -->
+    <form
+      name="contact"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/"
+      hidden
+    >
+      <label for="fullName"> Name: <span className="text-red">*</span> </label>
+      <input id="fullName" className="form-control" name="fullName" />
+      <label for="email"> Email: <span className="text-red">*</span> </label>
+      <input id="email" className="form-control" type="email" name="email" />
+      <label for="message">
+        Message: <span className="text-red">*</span>
+      </label>
+      <textarea
+        name="message"
+        id="message"
+        className="form-control textarea"
+      ></textarea>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- A little help for the Netlify post-processing bots -->
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
