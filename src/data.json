@@ -2,10 +2,10 @@
   "experience": [
     {
       "name": "Accenture India",
-      "designation": "Software Development Analyst",
+      "designation": "Senior Software Developer",
       "period": "Oct 2021–Present",
       "works": [
-        "Worked on slowly migrating a legacy JSP application to React in a microfrontend architecture where only part of the system is React with Typescript and the rest remains legacy JSP interface."
+        "Worked on migrating legacy applications to React/Next.js integrated with microservices in a modular architecture."
       ]
     },
     {
